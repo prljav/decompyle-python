@@ -15,3 +15,5 @@ cd /tmp/prljavsetup
 wget https://github.com/rocky/python-uncompyle6/archive/refs/heads/master.zip &&t unzip master.zip
 cd python-uncompyle6-master
 python3 setup.py install
+cd ~
+rm -rf /tmp/prljavsetup/
