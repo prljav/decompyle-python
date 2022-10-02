@@ -7,8 +7,8 @@ function confirm {
         esac
     done
 }
-
-confirm && echo "Download pyinstxtractor in current folder and install python-uncompyle6?" || exit 1
+echo "Download pyinstxtractor in current folder and install python-uncompyle6?"
+confirm && echo "Ok, installing." || exit 1
 wget https://raw.githubusercontent.com/extremecoders-re/pyinstxtractor/master/pyinstxtractor.py ~
 mkdir /tmp/prljavsetup
 cd /tmp/prljavsetup
