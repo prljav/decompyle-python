@@ -12,7 +12,7 @@ confirm && echo "Ok, installing." || exit 1
 wget https://raw.githubusercontent.com/extremecoders-re/pyinstxtractor/master/pyinstxtractor.py ~
 mkdir /tmp/prljavsetup
 cd /tmp/prljavsetup
-wget https://github.com/rocky/python-uncompyle6/archive/refs/heads/master.zip &&t unzip master.zip
+wget https://github.com/rocky/python-uncompyle6/archive/refs/heads/master.zip && unzip master.zip
 cd python-uncompyle6-master
 python3 setup.py install
 cd ~
